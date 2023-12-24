@@ -3,18 +3,16 @@
 <suite name="Suite1"> <!-- Suite -->
 	
 	
-  <test thread-count="5" name="Test1">
+  <test name="Regression  ">
+	  <groups>
+		  <run>
+			  <include name="Smoke"></include>
+		  </run>
+	  </groups>
     <classes>
-      <!--<class name="taib.CarLoan"/>--> 
-      <class name="taib.CarLoan">
-		  <methods>
-			  <exclude name="LoginAPIcarLoan"></exclude>
-		  </methods>
-		  <methods><include name="LoginAPIcarLoan"></include></methods>
-	  </class>
-      <class name="taib.Loan"/>
-      <class name="taib.HomeLoan"/>
+     
       <class name="taib.Basics"/>
+      <class name="taib.CarLoan"></class>
     </classes>
   </test> <!-- Test -->
   

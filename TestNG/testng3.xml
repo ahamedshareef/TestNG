@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite3 Annotations testing"> <!-- Suite -->
+
+
+	<test name="Test2">
+		<classes>
+			<!--<class name="taib.CarLoan"/>-->
+			<!--Annotations-->
+			<class name="taib.CarLoan">
+			</class>
+		</classes>
+	</test>
+	     
+	     
+	  
+  <test name="Test1">
+    <classes>
+			<!--<class name="taib.CarLoan"/>-->
+			<!--Annotations-->
+   
+      <class name="taib.Basics"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+	<!-- <test name="Car Loan">
+	<classes>
+		<class name="taib.Prioritizing133"></class>
+		<class name="taib.Prioritizing134"></class>
+	</classes>
+</test>-->
+
+</suite> <!-- Suite -->
+
+
