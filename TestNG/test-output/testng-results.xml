@@ -2,15 +2,15 @@
 <testng-results ignored="5" total="6" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-24T22:07:02 IST" name="Suite1" finished-at="2023-12-24T22:07:02 IST" duration-ms="27">
+  <suite started-at="2023-12-24T22:10:49 IST" name="Suite1" finished-at="2023-12-24T22:10:49 IST" duration-ms="23">
     <groups>
       <group name="Smoke">
         <method signature="Basics.demo3()[pri:0, instance:taib.Basics@446293d]" name="demo3" class="taib.Basics"/>
       </group> <!-- Smoke -->
     </groups>
-    <test started-at="2023-12-24T22:07:02 IST" name="Regression  " finished-at="2023-12-24T22:07:02 IST" duration-ms="27">
+    <test started-at="2023-12-24T22:10:49 IST" name="Regression  " finished-at="2023-12-24T22:10:49 IST" duration-ms="23">
       <class name="taib.Basics">
-        <test-method signature="demo3()[pri:0, instance:taib.Basics@446293d]" started-at="2023-12-24T22:07:02 IST" name="demo3" finished-at="2023-12-24T22:07:02 IST" duration-ms="5" status="PASS">
+        <test-method signature="demo3()[pri:0, instance:taib.Basics@446293d]" started-at="2023-12-24T22:10:49 IST" name="demo3" finished-at="2023-12-24T22:10:49 IST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- demo3 -->
